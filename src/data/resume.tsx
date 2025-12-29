@@ -11,7 +11,7 @@ export const DATA = {
     "Computer Science Student at Georgia Tech | Full-Stack Developer | Building innovative solutions with AI, mobile apps, and web technologies",
   summary:
     "Hi! I'm Connor Corrigan, a passionate software developer currently studying Computer Science as an undergraduate at the Georgia Institute of Technology. I specialize in web and mobile development, with a particular passion for full-stack development, AI/ML, and mobile applications. I leverage languages like Java, Python, Javascript, C, and frameworks such as React, React Native, Android Studio, and Tensorflow. My goal is to create scalable applications that can benefit users around the globe.\n\n I am always eager to learn, grow, and collaborate with like-minded developers to create impactful software. If you're interested in collaborating or have any questions, don't hesitate to reach out!",
-  avatarUrl: "/me.png",
+      avatarUrl: "/connor.png",
   skills: [
     "Java",
     "Python",
@@ -33,34 +33,28 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
+    email: "ccorrigan0709@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Ccorrigan0709",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/connor-corrigan-93b747200/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/connor0709/",
+        icon: Icons.instagram,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
@@ -166,101 +160,47 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "WanderSync",
+      href: "#",
+      dates: "June 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Welcome to WanderSync, a travel planning and synchronization app that helps users coordinate trips with friends, share itineraries, and stay organized while exploring the world.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "JavaScript",
+        "React Native",
+        "Firebase",
+        "Google Maps API",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
+      links: [],
+      images: [
+        "/Wandersync1.png",
+        "/Wandersync3.png",
+        "/Wandersync4.png",
+        "/Wandersync5.png",
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-      images: [],
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Word-Definer Chrome Extension",
+      href: "#",
+      dates: "2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a Google Chrome extension that provides definitions when users click on words, utilizing Javascript, HTML, and P5.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "JavaScript",
+        "HTML",
+        "P5.js",
+        "Chrome Extension API",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
+      links: [],
+      images: [
+        "/Word_Definer_Extension.png",
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-      images: [],
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-      images: [],
+      video: "",
     },
   ],
   hackathons: [

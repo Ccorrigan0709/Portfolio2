@@ -51,6 +51,9 @@ export function ProjectCard({
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const isPlastyAI = title === "PlastyAI - Microplastic Tracker";
+  const isWanderSync = title === "WanderSync";
+  const isWordDefiner = title === "Word-Definer Chrome Extension";
+  const hasModal = (isPlastyAI || isWanderSync || isWordDefiner) && images && images.length > 0;
 
   useEffect(() => {
     setMounted(true);
@@ -74,10 +77,10 @@ export function ProjectCard({
       <Card
         className={cn(
           "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full",
-          isPlastyAI && images && images.length > 0 && "cursor-pointer"
+          hasModal && "cursor-pointer"
         )}
         onClick={() => {
-          if (isPlastyAI && images && images.length > 0) {
+          if (hasModal) {
             setIsModalOpen(true);
           }
         }}
@@ -154,8 +157,8 @@ export function ProjectCard({
       </CardFooter>
     </Card>
 
-    {/* Modal for PlastyAI */}
-    {mounted && isModalOpen && isPlastyAI && images && images.length > 0 && createPortal(
+    {/* Modal for PlastyAI and WanderSync */}
+    {mounted && isModalOpen && hasModal && createPortal(
       <div
         className="fixed inset-0 flex items-center justify-center"
         style={{ 
