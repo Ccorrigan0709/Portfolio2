@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Connor T. Corrigan",
@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Computer Science Student at Georgia Tech | Full-Stack Developer | Building innovative solutions with AI, mobile apps, and web technologies",
   summary:
-    "Hi! I'm Connor Corrigan, a passionate software developer currently studying Computer Science as an undergraduate at the Georgia Institute of Technology. I specialize in web and mobile development, with a particular passion for full-stack development, AI/ML, and mobile applications. I leverage languages like Java, Python, Javascript, C, and frameworks such as React, React Native, Android Studio, and Tensorflow. My goal is to create scalable applications that can benefit users around the globe.\n\n I am always eager to learn, grow, and collaborate with like-minded developers to create impactful software. If you're interested in collaborating or have any questions, don't hesitate to reach out!",
+    "Hi! I'm Connor Corrigan, a passionate software developer currently studying Computer Science as an undergraduate at the Georgia Institute of Technology. I enjoy building in web and mobile development, with a particular passion for full-stack development, AI/ML, and mobile applications. I leverage languages like Java, Python, Javascript, C, and frameworks such as React, React Native, Android Studio, and Tensorflow. \n\n I am always eager to learn, grow, and collaborate with like-minded developers to create impactful software. If you're interested in collaborating or have any questions, don't hesitate to reach out!",
       avatarUrl: "/connor.png",
   skills: [
     "Java",
@@ -30,7 +30,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "ccorrigan0709@gmail.com",
